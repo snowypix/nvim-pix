@@ -22,8 +22,11 @@ return {
   
   {
     "kristijanhusak/vim-dadbod-ui"
-  }
+  },
 
+  {
+    "lukas-reineke/lsp-format.nvim"
+  },
   --
   -- {
   -- 	"williamboman/mason.nvim",
