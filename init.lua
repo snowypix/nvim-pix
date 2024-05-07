@@ -42,6 +42,7 @@ require("lazy").setup({
     require("lsp-format").setup {}
     require("lspconfig").gopls.setup { on_attach = require("lsp-format").on_attach }
     require("lspconfig").tsserver.setup { on_attach = require("lsp-format").on_attach }
+    require("lspconfig").html.setup { on_attach = require("lsp-format").on_attach }
   end,
 },
   
