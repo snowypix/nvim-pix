@@ -31,6 +31,16 @@ require("lazy").setup({
   },
 
   {
+    "smartpde/telescope-recent-files",
+    event = "VeryLazy",
+  },
+  
+  {
+    "nvim-tree/nvim-tree.lua",
+    event = "VeryLazy",
+  },
+
+  {
     "kristijanhusak/vim-dadbod-ui",
     event = "VeryLazy",
   },
